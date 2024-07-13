@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre - Primeiro Site Completo com HTML</title>
+  <style>
+    main {
+      background-color: lightyellow;
+    }
+    nav {
+      text-align: center;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+
+    h1 {
+      padding: 10px;
+      background-color: aquamarine;
+    }
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    thead th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+    }
+    #top-of-site {
+      font-family: fantasy;
+      font-size: 40px;
+    }
+    table {
+      background-color: lightcyan;
+      margin-left: auto;
+      margin-right: auto;
+      border: solid;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid;
+    }
+    th {
+      background-color: lightgray;
+    }
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+    p {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    button {
+      padding: 15px;
+      background-color: green;
+      margin: 15px;
+      color: white;
+    }
+    button:hover {
+      background-color: lightseagreen;
+    }
+    button a {
+      text-decoration: none;
+      color: white;
+    }
+    div {
+      text-align: center;
+    }
+    form {
+      text-align: center;
+    }
+    
+    label, input {
+      padding: 10px;
+      margin: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="https://dvuc6j6nz56aj.cloudfront.net/Custom/Content/Products/11/35/11359_estetoscopio-pediatrico-fun-animal-azul-spirit-e-na-sinete_m5_638234014326648560.png" alt="Logotipo" width="120px"><br>
+      <p id="top-of-site"><strong>CLINIQUINHA</strong></p>
+    <a href="home.html">Home</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="horarios.html">Horários</a>
+    <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contato</h1>
+    <h2>Preencha o formulário:</h2>
+    <form>
+      <ul>
+        <p>
+          <label for="name">Name: </label>
+          <input type="text">
+        </p>
+        <p>
+          <label for="age">Idade</label>
+          <input type="number">
+        </p>
+        <p>
+          <label for="date">Data de preferência</label>
+          <input type="date">
+        </p>
+        <p>
+          <label for="horario">Horário de preferência</label>
+          <input type="time">
+        </p>
+        <p>
+          <label for="phone">Telefone</label>
+          <input type="tel">
+        </p>
+      </ul>
+      <div><button><a href="#">Enviar</a></button></div>
+    </form>
+
+  </main>
+
+  <footer>
+    <p>
+      <a href="mailto:contato@cliniquinha.com">contato@cliniquinha.com</a> | 
+      <a href="tel:+5511999999999">(19) 99000-9999</a>
+    </p>
+    <p>
+      <a href="https://www.facebook.com/cliniquinha">Facebook</a> |
+      <a href="https://www.twitter.com/cliniquinha">Twitter</a> |
+      <a href="https://www.instagram.com/cliniquinha">Instagram</a>
+    </p>
+  </footer>
+</body>
+</html>
